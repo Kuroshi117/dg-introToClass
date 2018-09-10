@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Intro</title>
+    
+    <script type="text/javascript">
+        var clickCount = 0;
+        function main() {
+            alert("hi again");
+        }
+        
+        function CountClicks() {
+            clickCount += 1;
+            document.getElementById("clickCount").innerHTML = clickCount;
+            
+        }
+
+    </script>
+</head>
+<body>
+    Hello World<br />
+    <button onclick="main()">Test</button>
+    <p id="counter"><a id="clickCount">0</a></p>
+    <button onclick="CountClicks()">Click</button>
+
+</body>
+</html>
